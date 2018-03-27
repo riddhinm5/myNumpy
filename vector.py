@@ -79,7 +79,8 @@ class Vector():
             else:
                 raise TypeError
         except TypeError:
-            raise TypeError('Can only perform multiplication with a scalar with this function. To multiply 2 vectors use Vector.matmul()')
+            raise TypeError('Can only perform multiplication with a scalar with this function.\
+             To multiply 2 vectors use Vector.matmul()')
     
     __rmul__ = __mul__
 
